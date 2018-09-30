@@ -1,0 +1,47 @@
+// google fonts //
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Work+Sans:300,700");
+@import url('https://fonts.googleapis.com/css?family=Gravitas+One');
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+
+// font mixins //
+@mixin headingFont($fontSize) {
+  font-size: $fontSize;
+  // font-family: 'Abril Fatface', cursive;
+  font-family: 'Megrim', cursive;
+
+}
+
+@mixin bodyFont($fontSize) {
+  font-size: $fontSize;
+  font-family: "montserrat", sans-serif;
+  font-weight: 400;
+}
+
+@mixin lineHeight($lineHeight) {
+  line-height: $lineHeight;
+}
+
+// headings //
+h1 {
+  @include headingFont(5rem);
+  color: white;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+
+}
+h5{
+  @include bodyFont(1rem);
+  color: white;
+
+}
+
+p {
+}

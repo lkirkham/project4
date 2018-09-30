@@ -1,0 +1,36 @@
+@import "./partials/_setup.scss";
+@import "./partials/_typography.scss";
+
+
+.hero {
+  background-image: url("./Assets/backgroundImageCrop.jpg");
+  background-color: #db55b3; /* Used if the image is unavailable */
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 1020px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+////////////// RESULTS
+
+.results {
+  height: 50vh;
+}
+
+
